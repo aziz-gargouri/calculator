@@ -15,40 +15,40 @@
     style="background: linear-gradient(to bottom, #f9544c 50%, #090c31 50%);height: 100vh;">
     <div class="card p-5  gap-3 " style="background-color:#090c31 ;">
         <div >
-            <input type="text" value="0">
+            <input type="text" id="output" >
         </div>
         <div class="text-white">
-            <button class="text-white"style="background-color: #090c31;" >AC</button >
+            <button class="text-white ;shadow"style="background-color: #090c31;  " >AC</button >
             <button class="text-white"style="background-color:#090c31 ;" >DEL</button >
             <button class="text-white"style="background-color:#090c31 ;" >/</button >
             <button class="text-white"style="background-color:#090c31 ;" >*</button >
         </div> 
         <div> 
-            <button class="text-white"style="background-color:#090c31 ;" >7</button >
-            <button class="text-white"style="background-color:#090c31 ;" >8</button >
-            <button class="text-white"style="background-color:#090c31 ;" >9</button >
-            <button class="text-white"style="background-color:#090c31 ;" >-</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)" value="7" >7</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)" value="8">8</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)" value="9">9</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)" value="-">-</button >
         </div>
         <div> 
-            <button class="text-white"style="background-color:#090c31 ;" >4</button >
-            <button class="text-white"style="background-color:#090c31 ;" >5</button >
-            <button class="text-white"style="background-color:#090c31 ;" >6</button >
-            <button class="text-white"style="background-color:#090c31 ;" >+</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)"  value="4">4</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)" value="5">5</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)" value="6">6</button >
+            <button class="text-white"style="background-color:#090c31 ;" onclick="clicked(event)" value="+">+</button >
         </div>
         <div class="d-flex justify-content-center ">
             <div>
             <div>
-                <button class="text-white"style="background-color:#090c31" >1</button >
-                <button class="text-white"style="background-color:#090c31" >2</button >
-                <button class="text-white"style="background-color:#090c31">3</button >
+                <button class="text-white"style="background-color:#090c31" onclick="clicked(event)" value="1" >1</button >
+                <button class="text-white"style="background-color:#090c31" onclick="clicked(event)" value="2">2</button >
+                <button class="text-white"style="background-color:#090c31" onclick="clicked(event)" value="3">3</button >
             </div>
             <div class="d-flex justify-content-center p-2 gap-1">
-                <button class="text-white"style="background-color:#090c31;width: 140px;">0</button >
-                <button class="text-white"style="background-color:#090c31;">.</button >
+                <button class="text-white"style="background-color:#090c31;width: 140px;"  onclick="clicked(event)" value="0">0</button >
+                <button class="text-white"style="background-color:#090c31;" onclick="clicked(event)" value=".">.</button >
             </div>
         </div>
             <div >
-                <button class="text-white " style="height: 145px;background-color: #f9544c;">=</button >
+                <button class="text-white " style="height: 145px;background-color: #f9544c;" onclick="calculate()">=</button >
             </div>
         </div>
     </div>

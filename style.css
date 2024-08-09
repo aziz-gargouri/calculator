@@ -10,3 +10,14 @@ input{
 .shadow{
     box-shadow: none!important;
 }
+
+@media  screen and ( max-width:390px) {
+    button {
+        width: 30px;
+    }
+    body {
+        padding: 10px;
+    }
+  
+    
+}

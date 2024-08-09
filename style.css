@@ -11,13 +11,17 @@ input{
     box-shadow: none!important;
 }
 
-@media  screen and ( max-width:390px) {
+@media  screen and ( max-width:400px) {
     button {
         width: 30px;
+        height: 30px;
     }
     body {
         padding: 10px;
     }
+   #zero {
+    width: 30px !important;
+   }
   
     
 }
